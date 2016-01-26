@@ -1,0 +1,55 @@
+//= require fonts
+//= require normalize
+//= require pygments
+//= require_self
+
+@import bourbon
+@import neat
+
+$red: #CB0001
+$black: #000000
+
+$mobile: new-breakpoint(max-width 480px 4)
+
+h1
+  font-weight: 400
+h2
+  font-weight: 350
+h3
+  font-weight: 320
+h4, h5, h6
+  font-weight: 300
+
+a
+  color: inherit
+
+header.notice
+  background: $red
+  color: white
+  text-align: center
+  padding: 1em
+  border-bottom: 5px solid $black
+  p
+    margin: 0
+
+body
+  font-family: 'Lato', sans-serif
+  font-size: 14pt
+  +media($mobile)
+    font-size: 12pt
+  font-weight: 300
+  line-height: 1.5em
+
+article
+  padding: 1em
+  +outer-container
+
+pre.highlight
+  font-family: 'Ubuntu Mono', sans-serif
+  padding: 0.3em 1em
+  background-color: #272822
+  color: white
+  overflow-x: auto
+
+.center
+  text-align: center

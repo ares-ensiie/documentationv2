@@ -1,0 +1,21 @@
+!!!
+%html
+  %head
+    %meta(charset="utf-8")
+    %meta(content="IE=edge,chrome=1" http-equiv="X-UA-Compatible")
+    %meta(name="viewport" content="width=device-width, initial-scale=1")
+    = stylesheet_link_tag 'documentation'
+    = javascript_include_tag 'documentation'
+
+  %body{class: page_classes}
+    %header.notice
+      :markdown
+        En cas de problème avec la documentation, veuillez [ouvrir une issue](https://bugtracker.ares-ensiie.eu/bug_report_page.php) ou nous contacter par email: <ares@ares-ensiie.eu>. Suivez-nous sur [le gitlab](https://git.ares-ensiie.eu/groups/ares)!
+    %h1.center
+      - if current_page.url == "/"
+        Documentation ARES
+      - else
+        = current_page.url[1..-2].upcase
+    %article
+      = preserve do
+        = yield
