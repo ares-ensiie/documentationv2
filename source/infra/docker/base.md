@@ -79,7 +79,7 @@ Il aura la syntaxe suivante:
 ```yml
 mon-app:
   image: repo/app
-  port:
+  ports:
     - PORT_DE_LA_MACHINE_HOTE:PORT_DU_CONTAINER
 ```
 
@@ -88,7 +88,7 @@ Dans notre cas:
 ```yml
 mon-app:
   image: repo/app
-  port:
+  ports:
     - 8081:3000
 ```
 
@@ -110,7 +110,7 @@ Par exemple si nous voulons relier le dossier `/exports/Infra/influx` de la mach
 ```yml
 mon-app:
   image: repo/app
-  volume:
+  volumes:
     - /exports/Infra/influx:/data
 ```
 
