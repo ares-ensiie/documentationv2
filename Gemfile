@@ -3,7 +3,6 @@
 source 'http://rubygems.org'
 
 gem 'middleman'
-gem 'middleman-deploy'
 gem 'middleman-syntax'
 gem 'middleman-livereload'
 
@@ -12,3 +11,4 @@ gem 'bourbon'
 gem 'neat'
 gem 'coffee-script'
 gem 'redcarpet'
+gem 'puma'

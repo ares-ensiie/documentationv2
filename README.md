@@ -46,9 +46,14 @@ pour le laguage ruby par exemple
 
 ## Déployer
 
-Pour déployer les mises à jour, il faut build le projet puis pusher le contenu du dossier build
-sur la branch `gh-pages`
+Pour déployer, il faut builder les pages du site web:
 
 ```bash
-bundle exec middleman build && bundle exec middleman deploy
+bundle exec middleman build
+```
+
+Puis lancer puma:
+
+```bash
+puma
 ```
