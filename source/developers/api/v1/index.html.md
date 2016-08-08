@@ -12,7 +12,7 @@ Les endpoints qui ne manipulent pas de ressources appartenant à un utilisateur 
 
 Les tokens sont généré à la création de votre application et vous pouvez les trouver dans les informations relatives à votre application. Si vous ne savez pas comment créer une application, nous vous invitons à [suivre le guide de création d'application](/doc/create_application).
 
-_Dans la documentation anglo-saxonne, ces tokend sont appelés "userless tokens"._
+_Dans la documentation anglo-saxonne, ces tokens sont appelés "userless tokens"._
 
 ### Accès utilisateur
 
