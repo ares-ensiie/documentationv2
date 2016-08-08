@@ -7,6 +7,7 @@
 - [Les statistiques](/infra/metrics)
 - [Les systèmes de fichiers](/infra/filesystems)
 - [Liste des services](/soft/list)
+- [Liste des services externes](/soft/extern)
 
 ## APIS
 
