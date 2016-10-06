@@ -50,7 +50,7 @@ Toutes les adresses commencant par `10.0.0.X` sont des serveurs. Sauf ceux sous 
 
 De plus toutes les IPS commencant en `10.0.1.X` sont les addresses IP des ports de gestion des machines (IPMI, Remote access sur les switchs etc.)
 
-Enfin historiquement les IPS commencant en `10.0.2.X` sont les IPS des machines virtuelles.
+Enfin les IPS commencant en `10.0.2.X` sont les IPS des machines virtuelles.
 
 Finnalement les ordinateurs des étudiants et de l'administration sont addréssés par le DHCP sur la place `10.3.0.1` - `10.3.128.254`
 
